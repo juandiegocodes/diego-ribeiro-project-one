@@ -48,6 +48,7 @@ a{
 
 a:hover {
     color: #e75605;
+    transition: color 0.5s;
 }
 
 img{
@@ -453,13 +454,13 @@ footer p {
     }
 
     .the-gram ul li:nth-child(1) {
-        margin: 0  1rem 0 0;
-        width: calc(50% - 1rem);
+        margin: 0  0.25rem;
+        width: calc(50% - 0.5rem);
     }
     
     .the-gram ul li:nth-child(2) {
-        margin: 0 0.5rem;
-        width: calc(50% - 1rem);
+        margin: 0 0.25rem;
+        width: calc(50% - 0.5rem);
     }
     
     .the-gram ul li:nth-child(3) {
